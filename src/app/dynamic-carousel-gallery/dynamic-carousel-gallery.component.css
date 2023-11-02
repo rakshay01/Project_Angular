@@ -1,0 +1,323 @@
+.carousel{
+    text-align: center;
+    border: 10px solid black;
+}
+
+.s{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(238, 107, 7);
+    background-color: #3B5998;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.Service-Provider {
+    text-align: center;
+    margin: 23px;
+    font-size: 25px;
+}
+
+.Mylogo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mylogo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.Navigation {
+    display: flex;
+    background-color: gray;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+    cursor: pointer;
+}
+
+.Navigation-List {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation-List li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.Navigation-List li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Navigation-List li a:hover {
+    text-decoration: none;
+    color: rgb(232, 183, 183);
+}
+
+#Search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.Navigation-Right {
+    width: 30%;
+    text-align: right;
+    margin: 45px;
+}
+
+.Section1 {
+    height: 50vh;
+}
+
+.Main-st {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;
+    max-width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.Upper-Section {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+
+
+.Lower-Section {
+    width: 30%;
+}
+
+
+
+.Lower-Section img {
+    width: 70%;
+    border: 4px solid rgb(35, 228, 209);
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.Large-Text {
+
+    font-size: 41px;
+    margin: 10px;
+}
+
+.Small-Text {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.Button1 {
+    padding: 8px 20px;
+    margin: 0px 15px;
+    border: 2px solid rgb(9, 160, 224);
+    border-radius: 8px;
+    background: none;
+    color: rgb(29, 221, 131);
+    cursor: pointer;
+}
+
+.Small-Button {
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.Section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.Section2div {
+    padding: 0px 65px;
+}
+
+.Move-Left {
+    flex-direction: row-reverse;
+}
+
+.Imgthumb {
+    border: 5px solid black;
+    border-radius: 26px;
+}
+
+.Sec1 {
+    padding: 15px 0;
+}
+
+.Contact-Page {
+    background-color: aliceblue;
+    height: 833px;
+}
+
+.Text-Middle {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.Details {
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.Details-input {
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 25px 0;
+}
+
+.Btn-Form {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.Footer-Stuff {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Background {
+    background-color: bisque;
+}
+
+.Three-Lines {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.Horizontal-Rule {
+    width: 500%;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+
+}
+
+.fa {
+    text-align: center;
+    padding: 10px 5px;
+    width: 30px;
+    justify-content: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #e4405f;
+    border: 5px solid black;
+    border-radius: 50%;
+    color: white;
+}
+
+.Social-Media {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+}
+
+@media only screen and (max-width:1140px) {
+    .Navigation-List {
+        flex-direction: column;
+    }
+
+    .Navigation {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 550px;
+    }
+
+    .Navigation-Right {
+        text-align: center;
+    }
+
+    #Search {
+        width: 100%;
+    }
+
+    .Three-Lines {
+        display: block;
+    }
+
+    .Navigation-Height {
+        height: 72px;
+    }
+
+    .Visiblity {
+        opacity: 0;
+    }
+
+    .Main-st {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .Section {
+        flex-direction: column-reverse;
+    }
+
+    .Large-Text {
+        text-align: center;
+    }
+
+    .Small-Text {
+        text-align: center;
+    }
+
+    .Button1 {
+        text-align: center;
+    }
+
+    .Introduction {
+        flex-direction: column-reverse;
+
+    }
+}
