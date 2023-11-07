@@ -11,8 +11,12 @@
 .a{
     text-align: center;
     font-size: 45px;
-    background-color: aqua;
+    background-color: bisque;
     color: #e4405f;
+}
+
+.a:hover{
+    background-color: bisque;
 }
 
 .Intro{
@@ -156,6 +160,10 @@ background-size: cover;
     background: none;
    color: rgb(232, 155, 11);
     cursor: pointer;
+}
+
+.Button1:hover{
+    background-color: aqua;
 }
 
 .Small-Button {
